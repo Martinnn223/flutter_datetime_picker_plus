@@ -43,6 +43,7 @@ enum LocaleType {
   hr,
   sk,
   sl,
+  cz,
   sr
 }
 
@@ -1680,6 +1681,42 @@ LocaleType.sl: {
   'am': 'AM',
   'pm': 'PM'
 },
+  LocaleType.cz: {
+    'cancel': 'Zpět',
+    'done': 'Hotovo',
+    'today': 'Dnes',
+    'monthShort': [
+      'Led',
+      'Úno',
+      'Bře',
+      'Dub',
+      'Kvě',
+      'Čer',
+      'Čer',
+      'Srp',
+      'Zář',
+      'Říj',
+      'Lis',
+      'Pro'
+    ],
+    'monthLong': [
+      'Leden',
+      'Únor',
+      'Březen',
+      'Duben',
+      'Květen',
+      'Červen',
+      'Červenec',
+      'Srpen',
+      'Září',
+      'Říjen',
+      'Listopad',
+      'Prosinec'
+    ],
+    'day': ['Pon', 'Úte', 'Stř', 'Čtv', 'Pát', 'Sob', 'Ned'],
+    'am': 'AM',
+    'pm': 'PM'
+  },
 LocaleType.sr: {
   'cancel': 'Откажи',
   'done': 'Завршено',
